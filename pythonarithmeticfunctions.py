@@ -1,5 +1,3 @@
-from itertools import count
-
 triangleArea = lambda base, height : base * height * 0.5
 
 def checkIfPrime(n):
@@ -60,14 +58,6 @@ def palindromicPyramidGenerator(rows):
       for j in range(i-1,0,-1):
         print(j,end=" ")
       print()
-
-def getPalindrome():
-    yield 0
-    for digits in count(1):
-        first = 10 ** ((digits - 1) // 2)
-        for s in map(str, range(first, 10 * first)):
-            yield int(s + s[-(digits % 2)-1::-1])
-
 def getAllPalindromesinRange(start, end):
 
     palindromGenerator = getPalindrome()
