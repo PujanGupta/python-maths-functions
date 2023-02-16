@@ -132,19 +132,3 @@ class Circle:
         self.circumference = self.diameter * self.pi
     def area(self):
         self.area = (self.pi * (self.radius**2))
-
-def checkIfPrime(n):
-    if n == 1:
-        return "Neither Prime or Composite"
-    prime = True
-    for i in range(2, n - 1):
-        if n % i == 0:
-            prime = False
-            break
-        else:
-            pass
-        
-    if prime == True:
-        return True
-    elif prime == False:
-        return False
