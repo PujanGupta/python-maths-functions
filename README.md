@@ -1,6 +1,6 @@
 # pythonarithmeticfunctions
 
-Usecase and Documentation by Pujan Gupta
+Usecase and Documentation
 
 ```
 from pythonarithmeticfunctions import *
