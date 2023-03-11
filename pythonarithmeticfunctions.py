@@ -132,3 +132,29 @@ class Circle:
         self.circumference = self.diameter * self.pi
     def area(self):
         self.area = (self.pi * (self.radius**2))
+
+        
+class Cube:
+    def __init__(self,side):
+        self.side = side
+        self.countsides = 6
+    def volume(self):
+        return(side ** 3)
+    def surfaceArea(self):
+        return((side ** 2)*self.countsides)
+    
+class Cuboid:
+    def __init__(self,length,breadth,height):
+        #Define l, b, h
+        self.length = length
+        self.breadth = breadth
+        self.height = height
+    def volume(self):
+        if not self.volume:
+            self.volume = (self.length * self.breadth * self.height)
+            return(self.volume)
+        else:
+            return(self.volume)
+    def surfaceArea(self):
+        if not self.surfacearea:
+            self.surfacearea = 2 * ((self.length * self.height)+(self.length * self.width)+(self.width * self.height)
