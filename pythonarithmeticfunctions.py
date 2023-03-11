@@ -157,4 +157,7 @@ class Cuboid:
             return(self.volume)
     def surfaceArea(self):
         if not self.surfacearea:
-            self.surfacearea = 2 * ((self.length * self.height)+(self.length * self.width)+(self.width * self.height)
+            self.surfacearea = 2 * ((self.length * self.height)+(self.length * self.width)+(self.width * self.height))
+            return self.surfacearea
+        else:
+            return self.surfacearea
