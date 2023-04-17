@@ -2,7 +2,7 @@
 
 Usecase and Documentation
 
-```
+```python
 from pythonarithmeticfunctions import *
 
 triangleArea(base,height)# -> returns area of triangle with base and height
